@@ -1,6 +1,10 @@
-# Hyena Indoor Positioning System
+# MagNavi - Hyena 실내 측위 시스템
 
-지자기 센서 데이터를 이용한 실내 측위 시스템 (Hyena Architecture)
+지자기 센서 데이터를 이용한 실내 측위 시스템 (Hyena Architecture). 영남대학교 캡스톤디자인 MagNavi 프로젝트의 측위 모델 리포지토리.
+
+- 📄 **논문**: "MagNavi: Geomagnetic Field-based Indoor Positioning," Proceedings of the KICS Fall Conference 2025, pp. 1050-1051, 한국통신학회, 2025.11
+- 🏆 2025 경상북도 캡스톤디자인 경진대회 수상작
+- 👤 이 리포지토리(모델 설계, 전처리/학습 파이프라인, 성능 분석)는 [박윤호](https://github.com/nini4746) 담당 파트
 
 ## 🎯 핵심 성과
 
@@ -62,7 +66,7 @@ python3 src/test_only.py \
 ## 📁 프로젝트 구조
 
 ```
-lstm/
+hyena/
 ├── run_new_pipeline.sh      # 🆕 새 전처리 전체 파이프라인
 ├── run_sliding_window.sh    # 🔄 구 전처리 전체 파이프라인
 ├── README.md                # 메인 문서
